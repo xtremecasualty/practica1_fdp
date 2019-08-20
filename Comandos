@@ -1,0 +1,47 @@
+Macedonia11:~ alumno$ cd practica2
+Macedonia11:practica2 alumno$ mkdir FDP
+Macedonia11:practica2 alumno$ cd FDP
+Macedonia11:FDP alumno$ touch archivo.txt
+Macedonia11:FDP alumno$ ls
+archivo.txt
+Macedonia11:FDP alumno$ cd ..
+Macedonia11:practica2 alumno$ mkdir Algebra
+Macedonia11:practica2 alumno$ ls
+Algebra		FDP		practica.txt
+Macedonia11:practica2 alumno$ ls
+Algebra		FDP		practica.txt
+Macedonia11:practica2 alumno$ cd FDP
+Macedonia11:FDP alumno$ echo "Alexis Salvador Vásquez Burgos 420055501" >> archivo.txt
+Macedonia11:FDP alumno$ cat archivo.txt
+Alexis Salvador Vásquez Burgos 420055501
+Macedonia11:FDP alumno$ cp archivo.txt ../Algebra
+Macedonia11:FDP alumno$ cd ..
+Macedonia11:practica2 alumno$ ls
+Algebra		FDP		practica.txt
+Macedonia11:practica2 alumno$ rm practica.txt
+Macedonia11:practica2 alumno$ ls
+Algebra	FDP
+Macedonia11:practica2 alumno$ mkdir Quimica
+Macedonia11:practica2 alumno$ mkdir FDF
+Macedonia11:practica2 alumno$ ls
+Algebra	FDF	FDP	Quimica
+Macedonia11:practica2 alumno$ mkdir Calculo
+Macedonia11:practica2 alumno$ ls
+Algebra	Calculo	FDF	FDP	Quimica
+Macedonia11:practica2 alumno$ cd Algebra
+Macedonia11:Algebra alumno$ ls
+archivo.txt
+Macedonia11:Algebra alumno$ cat archivo.txt 
+Alexis Salvador Vásquez Burgos 420055501
+Macedonia11:Algebra alumno$ cp archivo.txt ../FDF
+Macedonia11:Algebra alumno$ cp archivo.txt ../Calculo
+Macedonia11:Algebra alumno$ cp archivo.txt ../Quimica
+Macedonia11:Algebra alumno$ cd ..
+Macedonia11:practica2 alumno$ la
+-bash: la: command not found
+Macedonia11:practica2 alumno$ ls
+Algebra	Calculo	FDF	FDP	Quimica
+Macedonia11:practica2 alumno$ cd Quimica
+Macedonia11:Quimica alumno$ cat archivo.txt 
+Alexis Salvador Vásquez Burgos 420055501
+Macedonia11:Quimica alumno$ 
