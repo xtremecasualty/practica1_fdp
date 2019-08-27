@@ -1,0 +1,28 @@
+Problema: Dado u precio calcular su descuento considerando que si el precio es mayor a 100, el descuento será de 10%, de otro modo sólo descontar 2%
+Entrada:El precio.
+Salida:El precio con el descuento aplicado.
+Algoritmo:
+1. Solicitar el precio.
+2. Si el precio es mayor a 100 se valida la siguiente condición; de lo contrario saltarse al paso 3.
+	2.1 El precio con descuento será igual a la diferencia del precio y el precio multiplicado por 0.1
+3. Si el precio es menor a 100 se valida la siguiente condición:
+	3.1 El precio con descuento será igual a la diferencia del precio y el precio multiplicado por 0.02
+4. Mostrar el precio con descuento.
+
+Problema: Algoritmo que lea 2 números y calcule su suma; resta; multiplicación y división de ambos números.
+Entrada: Los 2 números.
+Salida: Resultados de suma; resta; multiplicación y división de ambos números.
+Algoritmo:
+1. Solicitar número1.
+2. Solicitar número 2.
+3. Resultado de suma es igual al número1 más número2.
+4. Resultado de resta es igual al número1 menos número2.
+5. Resultado de multiplicación es igual al número1 por número2.
+6. Resultado de división es igual al número1 entre el número2.
+7. Mostrar Resultado de suma; Resultado de resta; Resultado de multiplicación y Resultado de división.
+
+Problema: Leer 3 números que van a denotar una fecha y verificar si es fecha válida.
+Entrada: Los 3 números que serán día, mes, y año respectivamente.
+Salida: Confirmación de que la fecha es valida. 
+Algoritmo:
+1.
