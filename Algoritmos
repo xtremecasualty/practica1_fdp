@@ -25,4 +25,11 @@ Problema: Leer 3 números que van a denotar una fecha y verificar si es fecha v�
 Entrada: Los 3 números que serán día, mes, y año respectivamente.
 Salida: Confirmación de que la fecha es valida. 
 Algoritmo:
-1.
+1. Solicitar mes.
+	1.1 Si mes es abril; Junio; septiembre o noviembre el número maximo de dias es 30
+	1.2 Si mes es Enero, Marzo, Mayo, Julio, Agosto, Octubre o Diciembre, número maximo de dias es 31
+	1.3 Si mes es febrero, número maximo de dias es 28.
+2. Solicitar día.
+	2.1 Si día es mayor al número máximo de dias volver a paso 1.
+3. Solicitar año.
+4. Mostrar dia; mes y año
